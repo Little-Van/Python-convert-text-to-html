@@ -1,0 +1,7 @@
+- 这是一个基于Python编写的将文本文件自动渲染成html的程序
+- 程序启动方法：python make_up.py <file> test_output.html
+- 其中定义4个模块：
+  - text_block:将文本文件按照空行进行转换，转换成为单个文本模块（block）
+  - tag_modle:定义标签的添加方法、以及文本文件中需要替换的字符
+  - rules：定义标签的添加位置
+  - make_up：综合各个模块，初始化，并按照预先设定好的规则添加标签
